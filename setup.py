@@ -30,7 +30,7 @@ class PostInstallCommand(install):
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-preparing_PyPI_package = False
+preparing_PyPI_package = True
 version_git = version = '1.8+db1'
 
 if not preparing_PyPI_package:
