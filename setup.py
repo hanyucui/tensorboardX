@@ -31,7 +31,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 preparing_PyPI_package = False
-version_git = version = '1.8'
+version_git = version = '1.8+db1'
 
 if not preparing_PyPI_package:
     if os.path.exists('.git'):
